@@ -27,7 +27,7 @@ public class HomeActivity extends Activity {
         mWebView.setWebViewClient(new CustomWebViewClient());
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        mWebView.loadUrl("http://192.168.0.100/lpaecomms-web");
+        mWebView.loadUrl("http://10.211.55.10/lpaecomms-web");
 //        mWebView.loadUrl("https://lpaecomms.000webhostapp.com");
 //        mWebView.loadUrl("http://lpaecomms.dev");
     }
